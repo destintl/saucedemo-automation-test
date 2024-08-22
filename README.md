@@ -32,7 +32,7 @@ These are some steps to run test on local environment:
 - run tests in headed mode `npx playwright test --headed`
 - run a specific test file `npx playwright test ./tests/checkout.spec.js`
 
-## View the HTML report
+## View the report result HTML
 1. Navigate to the Report Location:
     * Go to the `playwright-report` directory in your project folder.
 2. Open the Report:
