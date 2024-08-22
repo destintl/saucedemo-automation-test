@@ -54,4 +54,3 @@ test('as a user want to add to cart', async ({ page }) => {
     await Home.sortingProductBy('hilo')
     await expect(page.locator('[data-test="inventory-list"]')).toContainText('$7.99');
   });
-
